@@ -1,0 +1,16 @@
+# 运行时产生的敏感文件 —— 绝对不能提交
+config.json
+cred.dat
+watchdog.log
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# PowerShell
+*.ps1xml
